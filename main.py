@@ -31,7 +31,7 @@ df = df.drop(columns=['ID'])
 X_train, X_test = df.iloc[:n_train], df.iloc[n_train:]
 
 # 10-Fold 앙상블 학습 및 검증
-print("🚀 10-Fold SVR 학습 및 평가 시작...\n")
+print(" 10-Fold SVR 학습 및 평가 시작...\n")
 kf = KFold(n_splits=10, shuffle=True, random_state=777)
 
 oof_preds = np.zeros(len(X_train))  # OOF 점수 계산용
