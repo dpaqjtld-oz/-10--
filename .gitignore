@@ -1,0 +1,10 @@
+# 데이터 파일 무시 (깃허브에 안 올림)
+# *.csv
+*.xlsx
+data/
+open/
+
+# 에디터 및 파이썬 캐시 파일 무시
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
